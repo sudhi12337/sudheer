@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>COUNTER</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>to-do list</h2>
-        <input type="text" id="taskInput" placeholder="enter task here">
-        <button id="addtask" onclick="addTask()">Add Task</button>
-        <ul id="taskList"></ul>
-        
+    <div class="counter-container">
+        <h2> counter app</h2>
+        <p id="count">0</p>
+        <button id="increase" onclick="increaseCount()" >+</button>
+        <button id="decrease" onclick="decreaseCount()">-</button>
+        <button id="reset" onclick="resetCount()">reset</button>
     </div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
